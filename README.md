@@ -5,7 +5,7 @@ A production-ready computer vision API that detects potholes in road images usin
 ## 🌐 Live Demo
 
 **API Endpoint:** `http://13.220.63.113:8000`  
-**Interactive Docs:** [http://13.220.63.113:8000/docs](http://13.220.63.113:8000/docs)
+**Interactive Docs:** [ http://100.25.40.78:8000/docs]( http://100.25.40.78:8000/docs)
 
 > Try uploading a road image to detect potholes in real-time!
 
