@@ -1,0 +1,30 @@
+{
+  "family": "yolo-pothole-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::182625199063:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "yolo-pothole-container",
+      "image": "182625199063.dkr.ecr.us-east-1.amazonaws.com/yolo-pothole-detector:latest",
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/yolo-pothole",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs",
+          "awslogs-create-group": "true"
+        }
+      }
+    }
+  ]
+}

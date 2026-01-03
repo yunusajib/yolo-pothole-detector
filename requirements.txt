@@ -1,0 +1,13 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# YOLO and Computer Vision
+onnxruntime==1.17.0
+# Newer version that supports ONNX Opset 19
+pillow==10.1.0
+numpy==1.26.2
+
+# Data validation
+pydantic==2.5.0

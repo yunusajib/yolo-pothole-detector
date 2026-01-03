@@ -1,0 +1,38 @@
+# Python
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Test files
+test_images/
+*.jpg
+*.png
+*.jpeg
+# But we DO want to copy the ONNX model!
+!my_yolo_model.onnx
+
+# Documentation
+*.md
+README.md
+
+# Old iris model files (if any)
+fastapi_with_ml_model.py
