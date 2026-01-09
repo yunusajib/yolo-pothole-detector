@@ -10,7 +10,7 @@ Production-Ready Computer Vision System for Road Infrastructure Monitoring
 
 ---
 
-> 🎯 **You ** [**Try the live API**](http://13.220.63.113:8000/docs) in 30 seconds.  
+> 🎯 **You ** [**Try the live API**](http://100.25.40.78:8000/docs) in 30 seconds.  
 > Upload any road image in the interactive Swagger docs and get real-time pothole detection with bounding boxes.  
 > Then come back to see the production engineering behind it.
 
@@ -1253,4 +1253,8 @@ This project showcases proficiency in:
 
 Built with ❤️ for demonstrating production computer vision engineering
 
+<<<<<<< HEAD
 [Live API](http://13.220.63.113:8000) • [API Docs](http://13.220.63.113:8000/docs) • [GitHub](https://github.com/yunusajib/yolo-pothole-detector/)
+=======
+[Live API](http://13.220.63.113:8000) • [API Docs](http://13.220.63.113:8000/docs) • [GitHub](https://github.com/yunusajib/yolo-pothole-detector/)
+>>>>>>> a1687e71c42fc88884b7045d0cb4db2dc9b4ca22
